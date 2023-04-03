@@ -1,0 +1,30 @@
+LCD16x2+I2C:
+ SDA = D21
+ SCL = D22
+MFRC522:
+ SCK = D5
+ MISO= D19
+ MOSI= D18
+ SS  = TX2/D17
+ RST = D23
+KEYPAD 3x4: (from left to right)
+ 1   = D13
+ 2   = D12
+ 3   = D14
+ 4   = D27
+ 5   = D26
+ 6   = D25
+ 7   = D33
+SERVO SG90:
+ pwm = RX2/D16
+ON_BOARD_LED:
+       D2
+BUZZER:D15
+BUTTON:
+LOCKINSIDE  D34
+LOCKOUTSIDE D35
+OPENINSIDE  D32//PULLUP RESISTOR
+
+       
+
+

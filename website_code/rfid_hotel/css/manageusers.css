@@ -1,0 +1,288 @@
+h1{
+  font-size: 28px !important;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif !important;
+  text-align: center;
+  margin: 15px !important;
+}
+tbody{
+  border: 1px solid rgba(255,255,255,0.3) !important;
+}
+tbody button {
+  background-color: transparent;
+  border: none;
+  display: block;
+  margin: auto;
+  border: 2px solid #0e2225;
+  color: #0e2225;
+}
+tbody button:hover {
+  cursor: pointer;
+  border: 2px solid #31045a;
+  color: #31045a;
+}
+th{
+  padding: 15px;
+  text-align: center !important;
+  vertical-align: top !important;
+  font-weight: 500;
+  font-size: 17px;
+  color: #000;
+  text-transform: uppercase;
+  border: none !important;
+  background-color: rgba(255,255,255,0.3) !important;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  border-bottom: solid 2px rgba(255,255,255,0.1);
+}
+
+.section {
+  margin: 5px;
+  width: 850px;
+  display: block;
+  float: right;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+.section span {
+  float: left;
+  display: block;
+  position: absolute;
+  margin: 0 0 0 5px;
+}
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #8e82cf !important;
+  padding: 5px;
+}
+.table thead th {
+  vertical-align: top;
+  border: 2px solid #dee2e6 !important;
+}
+.table tbody td {
+  vertical-align: top;
+  border: 2px solid #dee2e6 !important;
+  background-color: #adbd82 !important;
+  color: #000;
+}
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 95% 5% !important; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 25% !important; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 20px !important; /* Add some padding */
+  border: 1px solid #ddd !important; /* Add a grey border */
+  border-radius: 10px;
+  margin-bottom: 12px !important; /* Add some space below the input */ 
+}
+.form-style-5{
+  max-width: 430px;
+  height: 500px;
+  padding: 15px;
+  background: #f4f7f8;
+  margin: 46px 20px;
+  background: #f4f7f8;
+  border-radius: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+  border: none;
+  margin-top: 0;
+}
+.form-style-5 legend {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+  padding-top: 15px;
+
+}
+.form-style-5 label {
+  display: block;
+  margin-bottom: 15px;
+  font-family: Verdana, sans-serif;
+}
+.form-style-5 input[type="text"],
+.form-style-5 select,
+.form-style-5 input[type="number"]{
+  font-family: 'Courier New', Courier, monospace;
+  background: rgba(131, 27, 156, 0.1);
+  font-size: 16px;
+  width: 93%;
+  margin: 0;
+  outline: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 2px solid #ab9ad3;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.form-style-5 input[type="time"] {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(255,255,255,.1);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  background-color: #e8eeef;
+  color:#8a97a0;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border: 1px solid #e8eeef;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 select:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="time"]:focus {
+  background: #d2d9dd;
+  color: #000;
+}
+.form-style-5 input[type="text"]:hover,
+.form-style-5 input[type="email"]:hover,
+.form-style-5 input[type="number"]:hover,
+.form-style-5 input[type="time"]:hover {
+  border: 2px solid #3d44a7;
+}
+.form-style-5 select:hover,
+.form-style-5 input[type="radio"]:hover {
+  cursor: pointer;
+}
+.form-style-5 .number {
+  background: #2b078d !important;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 4px 0 rgba(255,255,255,0.2);
+  border-radius: 15px 0px 15px 0px;
+}
+
+.form-style-5 button {
+  position: relative;
+  display: block;
+  padding: 10px 39px 10px 39px;
+  color: #FFF;
+  margin: 0 auto;
+  background: #6d5dc9;
+  font-size: 16px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border: 1px solid #7824ff;
+  border-width: 3px 3px 3px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.form-style-5 button:hover {
+  background: #7062be;
+  cursor: pointer;
+}
+.form-style-5 .alert_user {
+  display: block;
+  position: relative;
+  width: 93%;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+  margin: -60px auto 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    display: block;
+    float: left;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 20px 2px;
+    padding: 20px;
+  }
+  .section img {
+    width: 15px;
+    margin: 3px;
+  }
+  h1 {
+    font-size: 19px !important;
+    padding: 5px 8px !important;
+  }
+  th {
+    font-size: 12px;
+    padding: 10px 2px;
+  }
+  td {
+    font-size: 11px;
+    padding: 4px 2px;
+  }
+}
+
+.section {
+  overflow-x: hidden;
+}
+.slideInRight {
+  animation-name: slideInRight;
+} 
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}

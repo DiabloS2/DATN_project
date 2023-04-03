@@ -1,0 +1,125 @@
+h1{
+  font-size: 28px !important;
+  color: rgb(228, 190, 190) !important;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif !important;
+  text-align: left;
+  margin-bottom: 15px;
+}
+th{
+  padding: 15px;
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 17px;
+  color: #000;
+  text-transform: uppercase;
+  border: none !important;
+  background-color: rgba(255,255,255,0.3) !important;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  border-bottom: solid 2px rgba(255,255,255,0.1);
+}
+.table thead th {
+  vertical-align: top;
+  border: 2px solid #dee2e6 !important;
+}
+.table tbody td {
+  vertical-align: top;
+  border: 2px solid #dee2e6 !important;
+  background-color: #adbd82 !important;
+  color: #000;
+}
+section{
+  margin: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px !important; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 25% !important; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 20px !important; /* Add some padding */
+  border: 1px solid #ddd !important; /* Add a grey border */
+  border-radius: 10px;
+  margin-bottom: 12px !important; /* Add some space below the input */ 
+}
+
+/* section {
+  overflow-x: scroll;
+} */
+.slideInRight {
+  animation-name: slideInRight;
+} 
+.slideInDown {
+  animation-name: slideInDown;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+ 
+.box{
+  background: #cddae8;
+  margin: 0px 0px 20px 0px;
+  width: 210px;
+  height: 28px;
+}
+
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section{
+    margin: 10px;
+  }
+  th{
+    padding: 8px 2px;
+    font-size: 11px;
+  }
+  td{
+    padding: 8px;
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 18px !important;
+  }
+}

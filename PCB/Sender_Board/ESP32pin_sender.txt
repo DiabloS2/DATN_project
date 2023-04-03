@@ -1,0 +1,15 @@
+MFRC522:
+  SCK = D5
+  MISO= D19
+  MOSI= D18
+  SS  = TX2/D17
+  RST = D23
+ONBOARD_LED: D2
+RED_LED: D21
+GREEN-LED: D22
+BUZZER: D15
+
+
+       
+
+
